@@ -31,7 +31,6 @@
 		F324CE411F616A270000DCB3 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		F36E05EE1F5EDFAC002212CE /* MVVMCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MVVMCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36E05F11F5EDFAC002212CE /* MVVMCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMCoordinator.h; sourceTree = "<group>"; };
-		F36E05F21F5EDFAC002212CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F36E05F71F5EDFAD002212CE /* MVVMCoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMCoordinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36E05FC1F5EDFAD002212CE /* MVVMCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCoordinatorTests.swift; sourceTree = "<group>"; };
 		F36E05FE1F5EDFAD002212CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,7 +108,6 @@
 				F36E06081F5EDFD3002212CE /* NVVMCoordinator.swift */,
 				F36E06091F5EDFD3002212CE /* NVVMCoordinatorDelegate.swift */,
 				F36E05F11F5EDFAC002212CE /* MVVMCoordinator.h */,
-				F36E05F21F5EDFAC002212CE /* Info.plist */,
 			);
 			path = MVVMCoordinator;
 			sourceTree = "<group>";
