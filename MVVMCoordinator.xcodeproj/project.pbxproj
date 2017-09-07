@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F324CE401F6169F10000DCB3 /* MVVMCoordinator.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F324CE3F1F6169F10000DCB3 /* MVVMCoordinator.podspec */; };
 		F36E05F81F5EDFAD002212CE /* MVVMCoordinator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36E05EE1F5EDFAC002212CE /* MVVMCoordinator.framework */; };
 		F36E05FD1F5EDFAD002212CE /* MVVMCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36E05FC1F5EDFAD002212CE /* MVVMCoordinatorTests.swift */; };
 		F36E05FF1F5EDFAD002212CE /* MVVMCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = F36E05F11F5EDFAC002212CE /* MVVMCoordinator.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F324CE3D1F6169CF0000DCB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F324CE3F1F6169F10000DCB3 /* MVVMCoordinator.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MVVMCoordinator.podspec; sourceTree = "<group>"; };
+		F324CE411F616A270000DCB3 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		F36E05EE1F5EDFAC002212CE /* MVVMCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MVVMCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36E05F11F5EDFAC002212CE /* MVVMCoordinator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMCoordinator.h; sourceTree = "<group>"; };
 		F36E05F21F5EDFAC002212CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,12 +58,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F36E05E41F5EDFAC002212CE = {
+		F324CE3C1F6169CE0000DCB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F324CE411F616A270000DCB3 /* Package.swift */,
+				F324CE3F1F6169F10000DCB3 /* MVVMCoordinator.podspec */,
+				F324CE3D1F6169CF0000DCB3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F324CE431F616AE30000DCB3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				F36E05F01F5EDFAC002212CE /* MVVMCoordinator */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		F324CE441F616AFF0000DCB3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
 				F36E05FB1F5EDFAD002212CE /* MVVMCoordinatorTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		F36E05E41F5EDFAC002212CE = {
+			isa = PBXGroup;
+			children = (
+				F324CE431F616AE30000DCB3 /* Sources */,
+				F324CE441F616AFF0000DCB3 /* Tests */,
 				F36E05EF1F5EDFAC002212CE /* Products */,
+				F324CE3C1F6169CE0000DCB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F324CE401F6169F10000DCB3 /* MVVMCoordinator.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +446,7 @@
 				F36E06041F5EDFAD002212CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F36E06051F5EDFAD002212CE /* Build configuration list for PBXNativeTarget "MVVMCoordinatorTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +455,7 @@
 				F36E06071F5EDFAD002212CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
